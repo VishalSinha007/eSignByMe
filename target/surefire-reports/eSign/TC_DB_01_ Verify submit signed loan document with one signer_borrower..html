@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  TC_DB_01: Verify submit signed loan document with one signer/borrower.</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TC_DB_01: Verify submit signed loan document with one signer/borrower.</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 23 11:24:26 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>542 seconds (542384 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eSign.index.SignedForOneSigner_index.SignedForOneSigner()'><b>SignedForOneSigner</b><br>Test class: com.eSign.index.SignedForOneSigner_index<br/>
+<a href="#Output-505506070" onClick='toggleBox("Output-505506070", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-505506070" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-505506070">
+<strong> <h3 style="color:DarkViolet"> Verify that User is in Login Page and Username and Password Option is Available</h3> </strong><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Time and Date of Test Execution===>2018-11-23  11:24:41</br><br/>
+<strong> <h3 style="color:DarkViolet"> Login Page : Verify that User is Login with Valid Username and Password.</h3> </strong><br/>
+<br><strong>Step 1Enter Username</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Username entered: sy1-dev09-owner@e-signsolutions.com</br><br/>
+<br><strong>Step 2Enter Password</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Password entered: N#abe7dd95b55c1d635349395d8d9244</br><br/>
+<br><strong>Step 3Click on Login Button</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;	User Full Name is Displayed ===>Welcome DEV09 Account</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;	Get the Current Page URL ===>https://go-env-syd9.clickandsign.net:19443/dashboard/</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;===>USer is Redirected to Home Page</br></br><br/>
+<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> <br/>
+<br><strong>Step 4Choose Option From WorkFlow DropDown</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Select workflow from the DropDown: IBM Digital Contracts Demo v. 1</br><br/>
+<br><strong>Step 5Click on Create Option</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Create Optioncreate</br><br/>
+<br><strong>Step 6Fill the Borrower 1 Details</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Internal Refrence Value ===>InternalRefranceNameqcgmnAEm</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> First Name ===>FirstNameTLYPUQDJ</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Last Name ===>LastNameRXCNvWQm</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Email Id ===>autoemailBorrowerVjlLHtSn@mailinator.com</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Phone Number ===>+61444444444</br><br/>
+<br><strong>Step 7Attach the WARF Document Randomly</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Total Number of Document Attached in Page ===>5</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> 3 Attachments going to be select.</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Attachment is Selected</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Attachment is Selected</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Attachment is Selected</br><br/>
+<br><strong>Step 8Click on Check Box For Guarantor ::1 and fill all details</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on Check Box Guarantor::1</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> First Name ===>FirstNamenKuPwNOgtM</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Last Name ===>LastNameOvOHEMFysu</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Email Id ===>autoemailgurantornmVNVkSvDR@mailinator.com</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Phone Number ===>+61444444444</br><br/>
+<br><strong>Step 9Click on Check Box For Relationship Manager and fill all details</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on Check Box Relationship Manager::</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> First Name ===>FirstNamehlZLxmfltXZc</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Last Name ===>LastNameOvOHEMFysu</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Email Id ===>autoemailgurantornmVNVkSvDR@mailinator.com</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Phone Number ===>+61444444444</br><br/>
+<br><strong>Step 10Click on Warf Attachment CheckBox</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Number of element Under Warf File ===>12</br><br/>
+<br><strong>Step 11Click on Create Button</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Create Button After filling All the Details ===>Create</br><br/>
+<br><strong>Step 12Click on Create Button</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Cloud service Aggrement <-  </br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> New File Uploaded ===>D:\Workspace\eSign\Resources\Cloud Hosting Agreement.pdf</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Send Now Button </br><br/>
+<br><strong>Step 13Click on Create Button</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  ===>  Navigate to Mailinator  <===</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp; --> Email ID In Mailinator ===>autoemailBorrowerVjlLHtSn@mailinator.com</br><br/>
+<br><strong>Step 14Click on Create Button</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---> Click on First mail in Email </br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;   ---> Click on My Document Option Go to My documents</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---->Enter SMS Code Authentication====>555555</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---->Click on Authentication option after sms Code<----</br><br/>
+<br><strong>Step 15Click on Loan Document Page and Fill The Loan Document Details</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---->Click on Product Disclosure Statement Example <----</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;--->Click on Back to Loan document Page<---</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---->Click on Product Disclosure Statement Example <----</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Click on Message dropdown Icon</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;===>Click To Sign Option</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;===>Click on Ok Button Under Pop Up </br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Return Home Page to go Back to Home Page</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on CheckBox of are you Ready to Upload Transfer of Land</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Ready to Upload</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Choose the Cloud Hosting Aggrement File</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====> After Selecting the File Upload the File</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on CheckBox of are you Ready to Upload Transfer of Land</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Ready to Upload</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Choose the Cloud Hosting Aggrement File</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====> After Selecting the File Upload the File</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on CheckBox of are you Ready to Upload Transfer of Land</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Ready to Upload</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Choose the Cloud Hosting Aggrement File</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====> After Selecting the File Upload the File</br><br/>
+<br><strong>Step 16Verify Thanks Message is Displayed</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Submit Loan Document</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Get Thanks Message===> Thank you for signing your documents, FirstNameTLYPUQDJ LastNameRXCNvWQm!</br><br/>
+</div>
+</td>
+<td></td>
+<td>516</td>
+<td>com.eSign.index.SignedForOneSigner_index@35d176f7</td></tr>
+</table><p>
+</body>
+</html>

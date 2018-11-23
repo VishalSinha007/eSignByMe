@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> Verify that User is in Login Page and Username and Password Option is Available</h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Time and Date of Test Execution===>2018-11-23  11:24:41</br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> Login Page : Verify that User is Login with Valid Username and Password.</h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 1Enter Username</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Username entered: sy1-dev09-owner@e-signsolutions.com</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 2Enter Password</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Password entered: N#abe7dd95b55c1d635349395d8d9244</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 3Click on Login Button</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;User Full Name is Displayed ===>Welcome DEV09 Account</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Get the Current Page URL ===>https://go-env-syd9.clickandsign.net:19443/dashboard/</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===>USer is Redirected to Home Page</br></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 4Choose Option From WorkFlow DropDown</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Select workflow from the DropDown: IBM Digital Contracts Demo v. 1</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 5Click on Create Option</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Create Optioncreate</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 6Fill the Borrower 1 Details</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Internal Refrence Value ===>InternalRefranceNameqcgmnAEm</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> First Name ===>FirstNameTLYPUQDJ</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Last Name ===>LastNameRXCNvWQm</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Email Id ===>autoemailBorrowerVjlLHtSn@mailinator.com</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Phone Number ===>+61444444444</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 7Attach the WARF Document Randomly</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Total Number of Document Attached in Page ===>5</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> 3 Attachments going to be select.</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Attachment is Selected</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Attachment is Selected</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Attachment is Selected</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 8Click on Check Box For Guarantor ::1 and fill all details</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on Check Box Guarantor::1</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> First Name ===>FirstNamenKuPwNOgtM</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Last Name ===>LastNameOvOHEMFysu</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Email Id ===>autoemailgurantornmVNVkSvDR@mailinator.com</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Phone Number ===>+61444444444</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 9Click on Check Box For Relationship Manager and fill all details</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on Check Box Relationship Manager::</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> First Name ===>FirstNamehlZLxmfltXZc</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Last Name ===>LastNameOvOHEMFysu</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Email Id ===>autoemailgurantornmVNVkSvDR@mailinator.com</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Phone Number ===>+61444444444</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 10Click on Warf Attachment CheckBox</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Number of element Under Warf File ===>12</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 11Click on Create Button</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Create Button After filling All the Details ===>Create</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 12Click on Create Button</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Cloud service Aggrement <-  </br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> New File Uploaded ===>D:\Workspace\eSign\Resources\Cloud Hosting Agreement.pdf</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Send Now Button </br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 13Click on Create Button</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ===>  Navigate to Mailinator  <===</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp; --> Email ID In Mailinator ===>autoemailBorrowerVjlLHtSn@mailinator.com</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 14Click on Create Button</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---> Click on First mail in Email </br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;   ---> Click on My Document Option Go to My documents</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---->Enter SMS Code Authentication====>555555</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---->Click on Authentication option after sms Code<----</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 15Click on Loan Document Page and Fill The Loan Document Details</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---->Click on Product Disclosure Statement Example <----</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--->Click on Back to Loan document Page<---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---->Click on Product Disclosure Statement Example <----</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Click on Message dropdown Icon</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===>Click To Sign Option</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===>Click on Ok Button Under Pop Up </br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Return Home Page to go Back to Home Page</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on CheckBox of are you Ready to Upload Transfer of Land</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Ready to Upload</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Choose the Cloud Hosting Aggrement File</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====> After Selecting the File Upload the File</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on CheckBox of are you Ready to Upload Transfer of Land</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Ready to Upload</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Choose the Cloud Hosting Aggrement File</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====> After Selecting the File Upload the File</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on CheckBox of are you Ready to Upload Transfer of Land</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Ready to Upload</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Choose the Cloud Hosting Aggrement File</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====> After Selecting the File Upload the File</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 16Verify Thanks Message is Displayed</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Submit Loan Document</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Get Thanks Message===> Thank you for signing your documents, FirstNameTLYPUQDJ LastNameRXCNvWQm!</br>]]>
+    </line>
+  </reporter-output>
+  <suite name="eSign" duration-ms="542384" started-at="2018-11-23T05:54:26Z" finished-at="2018-11-23T06:03:29Z">
+    <groups>
+    </groups>
+    <test name="TC_DB_01: Verify submit signed loan document with one signer/borrower." duration-ms="542384" started-at="2018-11-23T05:54:26Z" finished-at="2018-11-23T06:03:29Z">
+      <class name="com.eSign.index.SignedForOneSigner_index">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.eSign.index.SignedForOneSigner_index@35d176f7]" name="fetchSuiteConfiguration" is-config="true" duration-ms="483" started-at="2018-11-23T05:54:26Z" finished-at="2018-11-23T05:54:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@51e2adc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.eSign.index.SignedForOneSigner_index@35d176f7]" name="setUp" is-config="true" duration-ms="14371" started-at="2018-11-23T05:54:27Z" finished-at="2018-11-23T05:54:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.eSign.index.SignedForOneSigner_index.SignedForOneSigner()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@51e2adc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignedForOneSigner()[pri:0, instance:com.eSign.index.SignedForOneSigner_index@35d176f7]" name="SignedForOneSigner" duration-ms="516590" started-at="2018-11-23T05:54:41Z" finished-at="2018-11-23T06:03:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> Verify that User is in Login Page and Username and Password Option is Available</h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Time and Date of Test Execution===>2018-11-23  11:24:41</br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> Login Page : Verify that User is Login with Valid Username and Password.</h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 1Enter Username</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Username entered: sy1-dev09-owner@e-signsolutions.com</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 2Enter Password</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Password entered: N#abe7dd95b55c1d635349395d8d9244</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 3Click on Login Button</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;User Full Name is Displayed ===>Welcome DEV09 Account</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Get the Current Page URL ===>https://go-env-syd9.clickandsign.net:19443/dashboard/</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===>USer is Redirected to Home Page</br></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 4Choose Option From WorkFlow DropDown</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Select workflow from the DropDown: IBM Digital Contracts Demo v. 1</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 5Click on Create Option</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Create Optioncreate</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 6Fill the Borrower 1 Details</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Internal Refrence Value ===>InternalRefranceNameqcgmnAEm</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> First Name ===>FirstNameTLYPUQDJ</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Last Name ===>LastNameRXCNvWQm</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Email Id ===>autoemailBorrowerVjlLHtSn@mailinator.com</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Phone Number ===>+61444444444</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 7Attach the WARF Document Randomly</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Total Number of Document Attached in Page ===>5</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> 3 Attachments going to be select.</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Attachment is Selected</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Attachment is Selected</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Attachment is Selected</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 8Click on Check Box For Guarantor ::1 and fill all details</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on Check Box Guarantor::1</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> First Name ===>FirstNamenKuPwNOgtM</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Last Name ===>LastNameOvOHEMFysu</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Email Id ===>autoemailgurantornmVNVkSvDR@mailinator.com</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Phone Number ===>+61444444444</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 9Click on Check Box For Relationship Manager and fill all details</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on Check Box Relationship Manager::</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> First Name ===>FirstNamehlZLxmfltXZc</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Last Name ===>LastNameOvOHEMFysu</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Email Id ===>autoemailgurantornmVNVkSvDR@mailinator.com</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Phone Number ===>+61444444444</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 10Click on Warf Attachment CheckBox</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Number of element Under Warf File ===>12</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 11Click on Create Button</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Create Button After filling All the Details ===>Create</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 12Click on Create Button</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Cloud service Aggrement <-  </br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> New File Uploaded ===>D:\Workspace\eSign\Resources\Cloud Hosting Agreement.pdf</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Send Now Button </br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 13Click on Create Button</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ===>  Navigate to Mailinator  <===</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp; --> Email ID In Mailinator ===>autoemailBorrowerVjlLHtSn@mailinator.com</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 14Click on Create Button</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---> Click on First mail in Email </br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;   ---> Click on My Document Option Go to My documents</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---->Enter SMS Code Authentication====>555555</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---->Click on Authentication option after sms Code<----</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 15Click on Loan Document Page and Fill The Loan Document Details</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---->Click on Product Disclosure Statement Example <----</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--->Click on Back to Loan document Page<---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;  ---->Click on Product Disclosure Statement Example <----</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Click on Message dropdown Icon</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===>Click To Sign Option</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===>Click on Ok Button Under Pop Up </br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Return Home Page to go Back to Home Page</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on CheckBox of are you Ready to Upload Transfer of Land</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Ready to Upload</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Choose the Cloud Hosting Aggrement File</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====> After Selecting the File Upload the File</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on CheckBox of are you Ready to Upload Transfer of Land</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Ready to Upload</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Choose the Cloud Hosting Aggrement File</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====> After Selecting the File Upload the File</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on CheckBox of are you Ready to Upload Transfer of Land</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Ready to Upload</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Choose the Cloud Hosting Aggrement File</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====> After Selecting the File Upload the File</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 16Verify Thanks Message is Displayed</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;====>Click on Submit Loan Document</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Get Thanks Message===> Thank you for signing your documents, FirstNameTLYPUQDJ LastNameRXCNvWQm!</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignedForOneSigner -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eSign.index.SignedForOneSigner_index@35d176f7]" name="tearDown" is-config="true" duration-ms="10926" started-at="2018-11-23T06:03:18Z" finished-at="2018-11-23T06:03:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignedForOneSigner status=SUCCESS method=SignedForOneSigner_index.SignedForOneSigner()[pri:0, instance:com.eSign.index.SignedForOneSigner_index@35d176f7] output=<strong> <h3 style="color:DarkViolet"> Verify that User is in Login Page and Username and Password Option is Available</h3> </strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eSign.index.SignedForOneSigner_index -->
+    </test> <!-- TC_DB_01: Verify submit signed loan document with one signer/borrower. -->
+  </suite> <!-- eSign -->
+</testng-results>

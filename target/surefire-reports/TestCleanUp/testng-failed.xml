@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" verbose="0" name="Failed suite [TestCleanUp]">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.utility.CustomReporter"/>
+    <listener class-name="com.utility.CustomReporterListener"/>
+    <listener class-name="com.utility.RetryTestListener"/>
+    <listener class-name="com.utility.RetryConterManagerListener"/>
+  </listeners>
+  <test verbose="0" name="TC_DB_01: Verify submit signed loan document with one signer/borrower.(failed)">
+    <classes>
+      <class name="com.eSign.index.SignedForOneSigner_index">
+        <methods>
+          <include name="setUp"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="SignedForOneSigner"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eSign.index.SignedForOneSigner_index -->
+    </classes>
+  </test> <!-- TC_DB_01: Verify submit signed loan document with one signer/borrower.(failed) -->
+</suite> <!-- Failed suite [TestCleanUp] -->
